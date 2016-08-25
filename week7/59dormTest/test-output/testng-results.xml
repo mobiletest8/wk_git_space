@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76" started-at="2016-08-25T05:01:18Z" finished-at="2016-08-25T05:01:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="76" started-at="2016-08-25T05:01:18Z" finished-at="2016-08-25T05:01:19Z">
+      <class name="com.dorm.test.dormTest.AppTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.dorm.test.dormTest.AppTest@396a51ab]" name="login" is-config="true" duration-ms="1305" started-at="2016-08-25T13:01:17Z" finished-at="2016-08-25T13:01:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="protocolURL()[pri:0, instance:com.dorm.test.dormTest.AppTest@396a51ab]" name="protocolURL" duration-ms="49" started-at="2016-08-25T13:01:19Z" finished-at="2016-08-25T13:01:19Z">
+          <exception class="java.lang.Throwable">
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable
+	at message : 状态是否相等 expected [0] but found [0] in method : .protocolURL(AppTest:32)
+	at com.dorm.test.dormTest.AppTest.protocolURL(AppTest.java:32)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- protocolURL -->
+      </class> <!-- com.dorm.test.dormTest.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
