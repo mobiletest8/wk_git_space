@@ -2,28 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="76" started-at="2016-08-25T05:01:18Z" finished-at="2016-08-25T05:01:19Z">
+  <suite name="Default suite" duration-ms="88" started-at="2016-08-25T09:58:59Z" finished-at="2016-08-25T09:59:00Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="76" started-at="2016-08-25T05:01:18Z" finished-at="2016-08-25T05:01:19Z">
-      <class name="com.dorm.test.dormTest.AppTest">
-        <test-method status="PASS" signature="login()[pri:0, instance:com.dorm.test.dormTest.AppTest@396a51ab]" name="login" is-config="true" duration-ms="1305" started-at="2016-08-25T13:01:17Z" finished-at="2016-08-25T13:01:18Z">
+    <test name="Default test" duration-ms="88" started-at="2016-08-25T09:58:59Z" finished-at="2016-08-25T09:59:00Z">
+      <class name="com.dorm.test.AppTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.dorm.test.AppTest@396a51ab]" name="login" is-config="true" duration-ms="1249" started-at="2016-08-25T17:58:58Z" finished-at="2016-08-25T17:58:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="protocolURL()[pri:0, instance:com.dorm.test.dormTest.AppTest@396a51ab]" name="protocolURL" duration-ms="49" started-at="2016-08-25T13:01:19Z" finished-at="2016-08-25T13:01:19Z">
-          <exception class="java.lang.Throwable">
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable
-	at message : 状态是否相等 expected [0] but found [0] in method : .protocolURL(AppTest:32)
-	at com.dorm.test.dormTest.AppTest.protocolURL(AppTest.java:32)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        <test-method status="PASS" signature="protocolURL()[pri:0, instance:com.dorm.test.AppTest@396a51ab]" name="protocolURL" duration-ms="62" started-at="2016-08-25T17:58:59Z" finished-at="2016-08-25T17:59:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- protocolURL -->
-      </class> <!-- com.dorm.test.dormTest.AppTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.dorm.test.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

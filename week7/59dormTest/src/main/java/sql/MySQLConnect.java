@@ -17,13 +17,13 @@ public class MySQLConnect {
 	private static Connection getConn(String dataBase) {
 		
 		Connection conn = null;
-		String user = "admin";
+		String username = "admin";
 		String password = "admin";
 		String url = "jdbc:mysql://db.59temai.com:3306/" + dataBase;
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection(url,user,password);
+			conn = DriverManager.getConnection(url,username,password);
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {

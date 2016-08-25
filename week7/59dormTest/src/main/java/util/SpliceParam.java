@@ -1,6 +1,6 @@
 package util;
 
-public class SpliceParameter {
+public class SpliceParam {
 	
 	
 	/**
@@ -9,7 +9,7 @@ public class SpliceParameter {
 	 * @param value
 	 * @return
 	 */
-	public static String sParameter(String key,String value) {
+	public static String sParam(String key,String value) {
 
 		String result  = key + "=" + value + "&";
 		

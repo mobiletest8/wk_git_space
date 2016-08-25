@@ -1,4 +1,4 @@
-package com.dorm.test.dormTest;
+package com.dorm.test;
 
 public class Test {
 
